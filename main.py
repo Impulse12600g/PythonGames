@@ -1,16 +1,17 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-#TEST
+def mainScreen():
+    print("WELCOME TO PYTHON GAMES")
+    print()
+    print("----press any button and enter-----")
+    input() #wait for user
+
+def menu():
+    print("Games")
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    mainScreen()
+    menu()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
