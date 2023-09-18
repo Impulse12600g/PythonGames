@@ -8,7 +8,7 @@ def mainScreen():
 
 def menu():
     print("Games")
-
+    print("1. Game 1")
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
